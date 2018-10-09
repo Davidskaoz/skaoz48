@@ -1,0 +1,22 @@
+{
+  "name": "scraping",
+  "version": "1.0.0",
+  "description": "Raspado web",
+  "main": "app.js",
+  "dependencies": {
+    "casper": "^0.1.1",
+    "chromedriver": "^2.12.0",
+    "express": "^4.16.2",
+    "nodemon": "^1.14.10",
+    "phantomjs": "^2.1.7",
+    "request": "^2.83.0",
+    "selenium-webdriver": "^3.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Skaoz",
+  "license": "ISC"
+}
